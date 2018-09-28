@@ -14,6 +14,16 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  ul{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  ul li {
+    list-style-type: none;
+    border: solid #000 2px;
+    text-align: left;
+  }
 </style>
+

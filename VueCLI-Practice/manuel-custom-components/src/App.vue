@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <my-header></my-header>
-    <my-serve-det></my-serve-det>
-    <my-servers></my-servers>
+    <div id="serve">
+      <my-servers></my-servers>
+      <my-details></my-details>
+    </div>
     <my-footer></my-footer>
-    
   </div>
 </template>
 
@@ -21,7 +22,7 @@ export default {
     HelloWorld,
     'my-header': Header,
     'my-footer': Footer, 
-    'my-serveDet': ServerDetails,
+    'my-details': ServerDetails,
     'my-servers': Servers
   }
 }
@@ -35,5 +36,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#serve{
+  display: flex;
+  flex-direction: row;
+  border: 2px #000 solid;
+  margin: 1rem auto;
 }
 </style>

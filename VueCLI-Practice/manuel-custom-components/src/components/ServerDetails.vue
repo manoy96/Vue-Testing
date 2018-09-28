@@ -10,5 +10,9 @@ export default {
 </script>
 
 <style>
-
+p{
+  width: 50%;
+  text-align: left;
+  padding-left: 1rem;
+}
 </style>
