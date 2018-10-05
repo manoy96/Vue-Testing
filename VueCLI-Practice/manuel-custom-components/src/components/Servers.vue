@@ -19,11 +19,16 @@ export default {
     display: flex;
     flex-direction: column;
     width: 50%;
+    
   }
   ul li {
     list-style-type: none;
-    border: solid #000 2px;
+    border: solid #000 1px;
     text-align: left;
+    padding: .5rem .5rem;
+  }
+  ul li:hover {
+    background-color: #e0dfdf;
   }
 </style>
 

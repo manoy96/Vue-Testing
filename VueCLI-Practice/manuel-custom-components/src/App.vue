@@ -24,7 +24,8 @@ export default {
     'my-footer': Footer, 
     'my-details': ServerDetails,
     'my-servers': Servers
-  }
+  }, 
+  
 }
 </script>
 
@@ -42,7 +43,8 @@ body{background-color: #fdfdfd;}
 #serve{
   display: flex;
   flex-direction: row;
-  border: 2px #000 solid;
+  border: 1px #000 solid;
   margin: 1rem auto;
+  padding: 1rem 0;
 }
 </style>
